@@ -6,6 +6,20 @@
 header {
     background-color: #ca2628;
     color: rgb(255,255,255);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav {
+    width: 14rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
 }
 
 footer {
@@ -13,8 +27,16 @@ footer {
     color: rgb(255,255,255);
 }
 
+ul {
+    list-style: none;
+}
+
 a {
     text-decoration: none;
     color: inherit;
+}
+
+span a {
+    font-size: 2.5rem;
 }
 
