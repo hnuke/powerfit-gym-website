@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Arial', 'Verdana', 'Tahoma';
 }
 
 header {
@@ -10,11 +11,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0.8% 18% 0.8% 7%;
 
 }
 
 nav {
-    width: 14rem;
+    width: 17rem;
 }
 
 nav ul {
