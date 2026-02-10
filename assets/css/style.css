@@ -40,12 +40,35 @@ main section {
     gap: 1rem;
 
     background-image: url('../images/background-gym.jpg');
-    background-size:contain;
+    background-size: cover;
     background-repeat: no-repeat;
 
-    max-height: 3265px;
+    min-height: 80vh;
+
+    color: #ffff;
 }
 
+
+main section h2 {
+    font-size: 2.2rem;
+    text-shadow: 0 0 2rem rgb(0,0,0);
+
+}
+
+main section p {
+    font-size: 1.2rem;
+    text-shadow: 0 0 2rem rgb(0,0,0);
+
+}
+
+main section button {
+    width: 9.5rem;
+    height: 2.5rem;
+    border: 0;
+    background-color: #ca2628;
+    color: #ffff;
+    font-size: 1.1rem;
+}
 
 footer {
     background-color: #ca2628;
