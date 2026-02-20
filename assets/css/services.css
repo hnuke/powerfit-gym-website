@@ -16,3 +16,16 @@ main section ul {
     align-items: center;
     gap: 2vw;
 }
+
+main ul li h2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.h2-wrapper {
+    background-color: #ca2628;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
