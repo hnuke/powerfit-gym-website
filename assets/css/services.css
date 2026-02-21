@@ -20,11 +20,22 @@ main section ul {
 main ul li h2 {
     color: #ffffff;
     text-align: center;
+    font-size: 1.8rem;
 }
 
+.image-service {
+    display: flex;
+    align-items: center;
+    background-image: url("../images/weight-training.jpg");
+    width: 667px;
+    height: 1000px;
+}
+
+/* using a wrapper because h2 text cannot be center vertically*/
 .h2-wrapper {
     background-color: #ca2628;
-    height: 3vh;
+    height: 10vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
