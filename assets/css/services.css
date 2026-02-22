@@ -23,12 +23,20 @@ main ul li h2 {
     font-size: 1.8rem;
 }
 
+main ul li p {
+    font-size: 1.1rem;
+    margin: 1.3rem 0 0 0;
+    width: 15vw;
+    line-height: 1.9rem;
+}
+
 .image-service {
     display: flex;
     align-items: center;
     background-image: url("../images/weight-training.jpg");
-    width: 667px;
-    height: 1000px;
+    background-size: contain;
+    width: 333px;
+    height: 500px;
 }
 
 /* using a wrapper because h2 text cannot be center vertically*/
