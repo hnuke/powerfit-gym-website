@@ -1,6 +1,12 @@
 @import "reset.css";
 @import "semantics.css";
 
+header span {
+    font-size: 2rem;
+    font-weight: bold;
+    display: block;
+}
+
 main section h1 {
     color: #ffffff;
     text-align: center;
