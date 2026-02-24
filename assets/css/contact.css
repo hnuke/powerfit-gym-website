@@ -1,0 +1,39 @@
+@import "reset.css";
+@import "semantics.css";
+
+
+main {
+    color: #ffffff;
+    background-color: #21242d;
+}
+
+main section h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    padding: 2.5rem 0 1rem 0;
+    border-bottom: 5px #575c68 solid;
+}
+
+main section address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+    padding: 2vh 0 2vh 0;
+}
+
+address span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1rem;
+    width: 20rem;
+    text-align: center;
+}
+
+address hr {
+    margin: 1rem 0 0 0;
+    width: 100%;
+    border: 1px rgba(87, 92, 104, 0.5) solid;
+}
