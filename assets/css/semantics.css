@@ -14,7 +14,7 @@ header {
 }
 
 nav {
-    width: 17rem;
+    min-width: 17rem;
 }
 
 nav ul {
@@ -34,4 +34,14 @@ footer p {
 
 nav span a {
     font-size: 2.5rem;
+}
+
+@media screen and (max-width: 767px) {
+    nav ul {
+        display: none;
+    }
+    nav {
+        max-width: 17rem;
+        min-width: auto;
+    }
 }
