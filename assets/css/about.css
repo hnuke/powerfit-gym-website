@@ -34,6 +34,7 @@ main section h1 {
 main section img {
     display: block;
     margin: 0 auto 0 auto;
+    max-width: 80%;
 }
 
 main section p {
