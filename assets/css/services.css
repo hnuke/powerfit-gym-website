@@ -72,3 +72,9 @@ main ul li p {
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 1144px){
+    main section ul {
+        flex-direction: column;
+    }
+}
