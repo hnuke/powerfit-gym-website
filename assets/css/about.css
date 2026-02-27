@@ -20,6 +20,9 @@ main section {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+
+    max-width: 9git 0%;
+    margin: 0 auto 0 auto;
 }
 
 main section h1 {
@@ -34,7 +37,7 @@ main section h1 {
 main section img {
     display: block;
     margin: 0 auto 0 auto;
-    max-width: 80%;
+    max-width: 100%;
 }
 
 main section p {
