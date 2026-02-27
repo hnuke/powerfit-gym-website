@@ -46,3 +46,12 @@ main section p {
     margin: 0 auto 0 auto;
     width: 90%;
 }
+
+@media screen and (max-width: 768px){
+    main section img {
+        margin-top: 2rem;
+
+        max-width: 95%;
+        height: auto;
+    }
+}
