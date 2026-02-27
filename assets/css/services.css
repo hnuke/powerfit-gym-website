@@ -34,6 +34,12 @@ main section ul {
     margin: 2rem 0 2rem 0;
 }
 
+main ul li section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 main ul li h2 {
     color: #ffffff;
     text-align: center;
@@ -42,8 +48,8 @@ main ul li h2 {
 
 main ul li p {
     font-size: 1.1rem;
-    margin: 1.3rem 0 0 0;
-    max-width: 20rem;
+    margin: 1.3rem 1rem 0 1rem;
+    max-width: 80%;
     text-align: start;
     line-height: 1.9rem;
 }
@@ -69,7 +75,7 @@ main ul li p {
 /* using a wrapper because h2 text cannot be center vertically*/
 .h2-wrapper {
     background-color: #ca2628;
-    height: 10vh;
+    height: 4rem;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -79,5 +85,12 @@ main ul li p {
 @media screen and (max-width: 1144px){
     main section ul {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .image-service {
+        width: 249px;
+        height: 375px;
     }
 }
