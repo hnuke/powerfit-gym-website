@@ -22,7 +22,7 @@ main section {
     gap: 1rem;
 
     max-width: 80%;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 2rem auto;
 }
 
 main section h1 {
@@ -51,7 +51,7 @@ main section p {
     main section img {
         margin-top: 2rem;
 
-        max-width: 95%;
+        max-width: 75%;
         height: auto;
     }
 }
