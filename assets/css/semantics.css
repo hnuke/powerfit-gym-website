@@ -22,6 +22,10 @@ nav {
     justify-content: space-between;
 }
 
+.tall-list, .hamburguer {
+    display: none;
+}
+
 footer {
     background-color: #ca2628;
     color: rgb(255,255,255);
@@ -37,11 +41,25 @@ nav span a {
 }
 
 @media screen and (max-width: 767px) {
-    .wide-list {
-        display: none;
+    header {
+        flex-direction: column;
+        align-items: self-start;
     }
     nav {
         max-width: 17rem;
         min-width: auto;
+    }
+    .wide-list {
+        display: none;
+    }
+    .tall-list {
+        display: block;
+    }
+
+    .hamburguer {
+        display: block;
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
     }
 }
