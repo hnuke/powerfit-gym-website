@@ -17,7 +17,7 @@ nav {
     min-width: 17rem;
 }
 
-nav ul {
+.wide-list {
     display: flex;
     justify-content: space-between;
 }
@@ -37,7 +37,7 @@ nav span a {
 }
 
 @media screen and (max-width: 767px) {
-    nav ul {
+    .wide-list {
         display: none;
     }
     nav {
