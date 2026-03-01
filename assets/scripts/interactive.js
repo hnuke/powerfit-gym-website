@@ -1,7 +1,4 @@
 
-
-
-
 function setDisplayElement(element){
     element.classList.toggle('invisible');
 }

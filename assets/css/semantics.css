@@ -30,6 +30,13 @@ nav {
     margin: 0.4rem 0 0 0;
 }
 
+.hoverable {
+    transition: color 0.1s ease-in;
+}
+
+.hoverable:hover {
+    color:#56585c;
+}
 
 footer {
     background-color: #ca2628;

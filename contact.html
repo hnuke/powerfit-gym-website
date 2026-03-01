@@ -5,15 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Powerfit Gym</title>
     <link rel="stylesheet" href="assets/css/contact.css">
+    <script type="module" src="assets/scripts/interactive.js"></script>
 </head>
 <body>
     <header>
         <span aria-label="PowerFit Gym logo"><a href="index.html">PowerFit Gym</a></span>
         <nav>
-            <ul>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
+            <div class="hamburguer invisible">Menu</div>
+            <ul class="wide-list">
+                <li><a href="about.html" class="hoverable">About Us</a></li>
+                <li><a href="services.html" class="hoverable">Services</a></li>
+                <li><a href="contact.html" class="hoverable">Contact</a></li>
+            </ul>
+
+            <ul class="tall-list invisible">
+                <li><a href="about.html" class="hoverable">About Us</a></li>
+                <li><a href="services.html" class="hoverable">Services</a></li>
+                <li><a href="contact.html" class="hoverable">Contact</a></li>
             </ul>
         </nav>
     </header>
