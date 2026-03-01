@@ -3,12 +3,7 @@
 
 
 function setDisplayElement(element){
-    if (element.style.display !== "none"){
-        element.style.display = 'none';
-    }
-    else{
-        element.style.display = 'block';
-    }
+    element.classList.toggle('tall-list');
 }
 
 const ulMobile = document.querySelector('.tall-list');
