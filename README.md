@@ -9,7 +9,6 @@ This project is a responsive website built with HTML, CSS, and JavaScript. It sh
 ## Demonstration
 
 *   **Live Demo:** [link demo](https://powerfit-gym-website-kappa.vercel.app/index.html)
-*   **Screenshot/GIF:** ![project screenshot](design/PowerFit Gymwebsite features.png)
 
 ## Technologies Used
 
@@ -36,7 +35,7 @@ The website is a simple static site. You can navigate through different sections
 ## Contact
 
 *   **Email:** [send me an email!](mailto:hstuquifatec@gmail.com)
-*   **LinkedIn:** [profile](www.linkedin.com/in/higor-ferreira-stuqui-b348b531b)
+*   **LinkedIn:** [profile](https://www.linkedin.com/in/higor-ferreira-stuqui-b348b531b/)
 
 ## Acknowledgments
 
