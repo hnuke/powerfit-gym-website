@@ -8,8 +8,8 @@ main {
 
 main p:first-child {
     padding: 0.8% 0% 0.8% 7%;
-    background-color: #21242d;
-    color: #ffff;
+    background-color: var(--secondary-color);
+    color: var(--text-primary-color);
     font-size: 1.08rem;
 }
 
@@ -49,8 +49,8 @@ main section button {
     width: 9.5rem;
     height: 2.5rem;
     border: 0;
-    background-color: #ca2628;
-    color: #ffff;
+    background-color: var(--primary-color);
+    color: var(--text-primary-color);
     font-size: 1.1rem;
 }
 

@@ -1,3 +1,11 @@
+:root {
+    --primary-color: #ca2628;
+    --secondary-color: #21242d;
+
+    --text-primary-color: #ffffff;
+    --text-secondary-color: #56585c;
+}
+
 body {
     min-height: 100vh;
     display: grid;
@@ -5,8 +13,8 @@ body {
 }
 
 header {
-    background-color: #ca2628;
-    color: rgb(255,255,255);
+    background-color: var(--primary-color);
+    color: var(--text-primary-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,12 +43,12 @@ nav {
 }
 
 .hoverable:hover {
-    color:#56585c;
+    color: var(--text-secondary-color);
 }
 
 footer {
-    background-color: #ca2628;
-    color: rgb(255,255,255);
+    background-color: var(--primary-color);
+    color: var(--text-primary-color);
 }
 
 footer p {

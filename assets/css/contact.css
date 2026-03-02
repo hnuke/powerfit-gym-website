@@ -8,8 +8,8 @@ header span {
 }
 
 main {
-    color: #ffffff;
-    background-color: #21242d;
+    color: var(--text-primary-color);
+    background-color: var(--secondary-color);
 }
 
 main section {
