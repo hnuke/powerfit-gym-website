@@ -4,7 +4,7 @@ Powerfit Gym
 
 ## Description
 
-This project is a responsive website built with HTML, CSS, and JavaScript. It showcases the fictious gym, their services, contact and etc.
+This project is a responsive website built with HTML, CSS, and JavaScript. It showcases a fictitious gym, their services, contact and etc.
 
 ## Demonstration
 
