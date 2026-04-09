@@ -8,6 +8,8 @@ This project is a responsive website built with HTML, CSS, and JavaScript. It sh
 
 ## Demonstration
 
+<img width="1915" height="945" alt="image" src="https://github.com/user-attachments/assets/a2700499-f977-42c2-8dde-6358f1fa070d" />
+
 *   **Live Demo:** [link demo](https://powerfit-gym-website-kappa.vercel.app/index.html)
 
 ## Technologies Used
