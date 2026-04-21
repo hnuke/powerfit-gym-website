@@ -32,7 +32,7 @@ This project is a responsive website built with HTML, CSS, and JavaScript. It sh
 
 ## Usage
 
-The website is a simple static site. You can navigate through different sections using the navigation bar and view company details.
+The website is a static website. You can navigate through different sections using the navigation bar and view company details.
 
 ## Contact
 
